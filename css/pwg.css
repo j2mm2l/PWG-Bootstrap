@@ -1,0 +1,34 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  background-repeat: repeat;
+}
+
+/*l, xl*/
+@media (min-width: 1200px) {
+  body { background-image: url('../img/purty_wood.png') }
+}
+
+/*xs, s, m*/
+@media (max-width: 1199px) {
+  body { background-image: url('../img/purty_wood.png') }
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  background-color: #FFF;
+  border-radius: 6px;
+}
+
+.signature {
+  font-family: Zapfino, "Zapf Chancery", cursive;
+}
+
+.carousel {
+  max-width: 320px;
+  margin: auto;
+}
